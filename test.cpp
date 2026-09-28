@@ -2,12 +2,11 @@
 // Created by WJH on 2026/9/26.
 //
 
-#include"test.h"
-using namespace std;
+#include"general.h"
 
 int main()
 {
-    test t1;
-    t1.print();
+    general t1;
+    t1.printHelloTest();
     cout<<"hello"<<endl;
 }
